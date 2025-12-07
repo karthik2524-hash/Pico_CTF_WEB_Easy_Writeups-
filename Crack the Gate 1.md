@@ -5,17 +5,17 @@ We’re in the middle of an investigation. One of our persons of interest, ctf p
 
 Additional details will be available after launching your challenge instance.
 
-![[Pasted image 20251128232439.png]]
+![](Pasted%20image%2020251128232439.png)
 
 After view the source code of the webpage we can see some encoded test in comments further decoding it with cyberchef.io 
 
-![[Pasted image 20251128232451.png]]
+![](Pasted%20image%2020251128232451.png)
 
-![[Pasted image 20251128232509.png]]
+![](Pasted%20image%2020251128232509.png)
 
 we can see it suggests to add a header "X-Dev-Access: yes"
 Adding and sending request with the given username ctf-player@..... the flag is revealed 
-![[Screenshot 2025-11-28 234428.png]]
+![](Screenshot%202025-11-28%20234428.png)
 
 
 
